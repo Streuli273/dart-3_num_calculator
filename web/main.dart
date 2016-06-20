@@ -20,7 +20,8 @@ var sub = false;
 
 void main() {
   querySelector('#output').text = 'Your Dart app is running.';
-
+  
+  doButtons();
 //  buttonEquals.onClick.listen((Event e) {
 //    add = false;
 //    sub = false;
